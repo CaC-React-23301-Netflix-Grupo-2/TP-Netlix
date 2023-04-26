@@ -14,7 +14,7 @@ const Footer = () => {
               <p>¿Preguntas? Llama al 0800 345 1593</p>
             </Col>
           </Row>
-          <Row className="layout-item">
+          <Row className="layout-item d-flex justify-content-between">
             <Col md="auto">
               <li>Preguntas frecuentes</li>
               <li>Centro de ayuda</li>
