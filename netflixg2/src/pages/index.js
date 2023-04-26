@@ -1,6 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import Footer from '@/components/Footer'
+
 
 
 export default function Home() {
@@ -14,6 +17,8 @@ export default function Home() {
       </Head>
       <main className={`${styles.main}`}>
         <h1>Plataforma en construcción 🚧</h1>
+
+        <Footer />
       </main>
     </>
   )
