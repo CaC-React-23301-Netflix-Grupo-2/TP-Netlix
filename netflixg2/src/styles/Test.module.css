@@ -1,0 +1,10 @@
+/*TEST*/
+
+.test {
+    background: url(/../images/hero.jpg)repeat center center/cover;
+    height: 110vh;
+    max-height: 1000px;
+    width: 100vw;
+    opacity: 0.75;
+    position: relative;
+}
