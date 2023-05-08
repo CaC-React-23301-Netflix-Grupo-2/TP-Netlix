@@ -8,8 +8,6 @@ const Test = () => {
         <div className={`${styles.test}`}>
             <Header />
             <BillboardBox />
-      
-
             <Footer />
         </div>
     )

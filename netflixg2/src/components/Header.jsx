@@ -1,17 +1,17 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { TbWorld } from 'react-icons/tb';
 import Button from 'react-bootstrap/Button';
+import styles from '../styles/Header.module.css';
 
 
 const Header = () => {
   return (
-    <Navbar className='bg-black container-fluid top d-flex justify-content-between py-3'>
-      <Container >
+    <Navbar className={`${styles.navbar}`}>
+      <Container>
         <div className='d-flex justify-content-start'>
         <Navbar.Brand>
           <img
@@ -27,7 +27,7 @@ const Header = () => {
           <Row className="btn-dropdown">
             <Col md="auto">
               <Dropdown>
-                <Dropdown.Toggle variant="bg-dark border-light text-light" id="dropdown-autoclose-true">
+                <Dropdown.Toggle variant="bg-dark border-secondary text-light" id="dropdown-autoclose-true">
                   <TbWorld /> Español
                 </Dropdown.Toggle>
                 <Dropdown.Menu variant='dark'>

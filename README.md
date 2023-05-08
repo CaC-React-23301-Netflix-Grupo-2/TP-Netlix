@@ -5,6 +5,7 @@
 * David Barraud
 * Diego Gonzales
 * Cinthia Orona
+* Rodrigo Pereyra
 
 ---
 
@@ -12,5 +13,8 @@
 ### Comisión #23301, a cargo del profesor Alejandro Medici.
 
 ---
+> ### Requisitos funcionales
 
+
+> ### Componentes de los requisitos
 
