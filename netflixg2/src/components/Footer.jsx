@@ -17,28 +17,28 @@ const Footer = () => {
       <Row>
         <Col md="auto">
           <ul>
-            <li>Preguntas frecuentes</li>
-            <li>Centro de ayuda</li>
-            <li>Términos de uso</li>
-            <li>Privacidad</li>
-            <li>Preferencia de cookies</li>
+            <li><a href='#'>Preguntas frecuentes</a></li>
+            <li><a href='#'>Centro de ayuda</a></li>
+            <li><a href='#'>Términos de uso</a></li>
+           <li> <a href='#'>Privacidad</a></li>
+            <li><a href='#'>Preferencia de cookies</a></li>
           </ul>
         </Col>
         <Col md="auto">
           <ul>
-            <li>Información corporativa</li>
-            <li>Prensa</li>
-            <li>Formas de ver</li>
-            <li>Prueba de velocidad</li>
-            <li>Relaciones con inversionistas</li>
+            <li><a href='#'>Información corporativa</a></li>
+            <li><a href='#'>Prensa</a></li>
+            <li><a href='#'>Formas de ver</a></li>
+            <li><a href='#'>Prueba de velocidad</a></li>
+            <li><a href='#'>Relaciones con inversionistas</a></li>
           </ul>
         </Col>
         <Col md="auto">
-          <li>Avisos legales</li>
-          <li>Cuenta</li>
-          <li>Empleo</li>
-          <li>Contáctanos</li>
-          <li>Sólo en RecFlix</li>
+          <li><a href='#'>Avisos legales</a></li>
+          <li><a href='#'>Cuenta</a></li>
+          <li><a href='#'>Empleo</a></li>
+          <li> <a href='#'>Contáctanos</a></li>
+          <li><a href='#'>Sólo en RecFlix</a></li>
         </Col>
       </Row>
       <Row className="btn-dropdown mx-3">
@@ -57,7 +57,7 @@ const Footer = () => {
       </Row>
       <Row className='mx-3 mt-3'>
         <Col md="auto">
-          <p>Netflix Argentina</p>
+          <p>Recflix Argentina</p>
         </Col>
       </Row>
     </Container>
